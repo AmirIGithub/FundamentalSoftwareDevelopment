@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Order</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+
+
+</head>
+
+
+
+<body>
+    <h1>Order Your Burger</h1>
+
+    <!-- Order Form -->
+    <form action="/submit_order" method="POST">
+        <div class="menu">
+            {% for item in menu_items %}
+            <h2>
+                {{ item[1] }}
+            </h2>
+            {% endfor %}
+
+        </div>
+        <div class="submenu">
+            <div class="items">
+                {% for order in hamburger_items %}
+                <input type="radio" name="order_items" value="{{ order[1] }}">
+                <label>{{order [1]}}<br></label>
+                {% endfor %}
+            </div>
+            <div class="items">
+
+                {% for order in chickenAndFish_items %}
+                <input type="radio" name="order_items" value="{{ order[1] }}">
+                <label>{{order [1]}}<br></label>
+                {% endfor %}
+            </div>
+            <div class="items">
+
+                {% for order in vegitarian_items %}
+                <input type="radio" name="order_items" value="{{ order[1] }}">
+                <label>{{order [1]}}<br></label>
+                {% endfor %}
+            </div>
+            <div class="items">
+                {% for order in friesAndSides_items %}
+                <input type="radio" name="order_items" value="{{ order[1] }}">
+                <label>{{order [1]}}<br></label>
+                {% endfor %}
+            </div>
+            <div class="items">
+                {% for order in beverages_items %}
+                <input type="radio" name="order_items" value="{{ order[1] }}">
+                <label>{{order [1]}}<br></label>
+                {% endfor %}
+            </div>
+            <div class="items">
+                {% for order in desserts_items %}
+                <input type="radio" name="order_items" value="{{ order[1] }}">
+                <label>{{order [1]}}<br></label>
+                {% endfor %}
+            </div>
+
+        </div>
+        <h3> Please choose if you want to add or remove any of the following ingredients </h3>
+        <div class="choose">
+            <input type="radio" name="choice" value="Add">
+            <label>Add</label>
+            <input type="radio" name="choice" value="Remove">
+            <label>Remove</label>
+        </div>
+        <div class=ingredients>
+
+            {% for order in ingredients_items %}
+
+            <input type="radio" name="ingrediens" value="{{ order[1] }}">
+            <label>{{order [1]}}</label>
+
+            {% endfor %}
+
+        </div>
+        <!-- Add To Cart Button -->
+        <button class="button">Add to cart</button>
+    </form>
+
+
+    <h3>Cart: </h3>
+    {% for item in cart %}
+    <h2>
+        {{ item[1] }}
+    </h2>
+    {% endfor %}
+    <form action="/kitchen">
+        <!-- Adds the item in the cart to database and shows kitchen view-->
+        <button class="button">Place Order</button>
+    </form>
+
+
+
+
+
+</body>
+
+
+
+</html>
