@@ -1,1 +1,31 @@
+2024-09-13
+After a meeting with the other Group i start to look at understanding git, databases and how the Project needs to be devided. My first thoughts are that we need:
+1. Database (MySQL) Setup: You'll need a MySQL database called MenuStore to store burger menu items and orders.
+2. Front-End (HTML & CSS): Create a Burger Order page where users can select items.
+3. Backend (PHP): Handle the logic to save orders and display them on a Kitchen View page.
+4. Database Connection (PHP): Use PHP to connect to MySQL and interact with the database.
 
+Now i try to look at examples on how this looks in VScode (We agreed on vscode in the Group).
+
+2024-09-16
+Looked at videos to understand git, github, docker and MySQL.
+With a bit of understanding i ty and create the database in MySQL, creating tables for each type of item in the menu, hoping that tables can have tables inside them. To be able to create a hirarcy, menu_items at the top, then you can select type of item, for example "hamburger" and there all the items in the hamburger_items table will show. When you then select a specific hamburger for example "cheeseburger" then ingredients_items table should show for "cheeseburger". Im starting with creating tables hambuger_items dessert_items and so on, and then will try and find a solution. 
+I tried a couple of times, found some solutions.
+We had a meeting with the Group, we decided to use python for backend Communication and mysql as a database. I created a database and checked if it worked. It dit, now we just have to make sure the database work with Everything else. Started with app.py and burger_order.html to try and adjust the output.
+
+2024-09-23
+Understood Connections beteen mysql and htm more and managed to make a site where information can be passed to the database.
+
+2024-09-30
+MySQL is down and i try to find solutions.
+Got MySQL to work, problem with port 3306, but after trying a bunch of different solutions, when i Went back to "normal" it worked…
+Trying to make the kitchen view next.
+Made a cart table in my database to store and show the user the selected items, when the user presses "Place order" the items in the cart are transfered to orders, the cart is emptied, and the kitchen view is presented.
+
+2024-10-04
+Testing running a full debugg on every part of the Project and making sure Everything works. A the same time im Writing about the debugging in the "inlämningsuppgift 3" text that we have shared in the Group.
+Testing with python debugger on app.py.
+Tested looking at different variables and the values they get while ordering diffrent stuff and pressing different buttons. (See figure in "inlämningsuppgift 3"). Using the "Step into" to see the process flow and information flow of the program. For example i watched the "orders" variable to see what was there from the beginning and added a breakpoint on row 62 to be able to se the selected items information before continguing. The hardest part about using this debugger is that you need to move to and from the created website to see wich actions create different results. But the best part is being able to watch variables and functions to see what they contain and what they return.
+
+2024-10-07
+Meeting with group deciding on what we need to do next. Started writing on inlämningsuppgifter 1-3
