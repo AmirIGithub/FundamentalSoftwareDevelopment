@@ -29,3 +29,5 @@ Tested looking at different variables and the values they get while ordering dif
 
 2024-10-07
 Meeting with group deciding on what we need to do next. Started writing on inlämningsuppgifter 1-3
+Problems were found when other members try to open the app.py, the connection with the menustore database seem to be wrong. I try to find a solution. 
+My solution is to start the database in the app.py app and then start the database by using the url http://localhost:5000/initdb.
