@@ -1,0 +1,79 @@
+Yaiza, Vanessa, Amir, Ahmed
+
+Länk till projektets sida på git-servern:
+https://github.com/AmirIGithub/FundamentalSoftwareDevelopment
+
+Kort sammanfattning om vilken funktionalitet vi har testat:
+Vi har testat app.pyfunktionaliteten, att knapparna gör det dom ska.
+
+Kort sammanfattning om hur ni har genomfört testerna:
+Vi har genomfört testerna genom att starta hemsidan och klicka oss runt på de olika alternativen som finns. 
+Sen har vi kollat debuggern och jämfört med vad vi gjort och se till så att knapparna har gjort det de ska göra.
+Vi har även skapat ett automatiserat test i katalon programmet.
+
+5. Utskrift från den senaste testsessionen
+app.py debuggern: 
+
+127.0.0.1 - - [09/Oct/2024 10:16:53] "GET /initdb HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2024 10:16:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2024 10:16:58] "GET /static/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/Oct/2024 10:17:08] "POST /submit_order HTTP/1.1" 302 -
+127.0.0.1 - - [09/Oct/2024 10:17:08] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2024 10:17:08] "GET /static/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/Oct/2024 10:17:19] "POST /submit_order HTTP/1.1" 302 -
+127.0.0.1 - - [09/Oct/2024 10:17:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2024 10:17:19] "GET /static/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/Oct/2024 10:17:26] "POST /submit_order HTTP/1.1" 302 -
+127.0.0.1 - - [09/Oct/2024 10:17:26] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2024 10:17:26] "GET /static/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [09/Oct/2024 10:17:28] "GET /kitchen HTTP/1.1" 200 -
+127.0.0.1 - - [09/Oct/2024 10:17:28] "GET /static/styles.css HTTP/1.1" 304 -
+
+Katalon skriptet:
+
+Där blev skriptet:
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://127.0.0.1:5000/initdb')
+
+WebUI.navigateToUrl('http://127.0.0.1:5000/')
+
+WebUI.click(findTestObject('Object Repository/Page_Burger Order/input_Apples_order_items'))
+
+WebUI.click(findTestObject('Object Repository/Page_Burger Order/div_Add                        Remove'))
+
+WebUI.click(findTestObject('Object Repository/Page_Burger Order/div_Add                        Remove'))
+
+WebUI.click(findTestObject('Object Repository/Page_Burger Order/input_Please choose if you want to add or r_bcd0d1'))
+
+WebUI.click(findTestObject('Object Repository/Page_Burger Order/input_Red Onion_ingrediens'))
+
+WebUI.click(findTestObject('Object Repository/Page_Burger Order/button_Add to cart'))
+
+WebUI.click(findTestObject('Object Repository/Page_Burger Order/input_McVegan_order_items'))
+
+WebUI.click(findTestObject('Object Repository/Page_Burger Order/button_Add to cart'))
+
+WebUI.click(findTestObject('Object Repository/Page_Burger Order/input_Desserts_order_items'))
+
+WebUI.click(findTestObject('Object Repository/Page_Burger Order/input_Please choose if you want to add or r_bcd0d1'))
+
+WebUI.click(findTestObject('Object Repository/Page_Burger Order/input_Soft Bun_ingrediens'))
+
+WebUI.click(findTestObject('Object Repository/Page_Burger Order/button_Add to cart'))
+
+WebUI.click(findTestObject('Object Repository/Page_Burger Order/button_Place Order'))
+
+WebUI.closeBrowser()
+
+
+6. Era erfarenheter om att skriva automatiserade enhetstester.
+Det var ganska enkelt att sätta igång debuggern på app.py direkt.
+I katalon skapade vi ett automatiserat test där användaren beställer 3 produkter
+Detta blev då ett av de automatiserade testerna där vi kunde följa varje steg i processen av att beställa dessa 3 produkter
+
+
+7. Länk till dokumentationen från era respektive debug-sessioner i era indi-
+viduella ingenjörsdagböcker.
+
+
