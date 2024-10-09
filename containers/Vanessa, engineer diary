@@ -1,0 +1,20 @@
+Engineer diary
+
+11 sept: Spent the day trying to learn what SQL, containers, Git and Github are, what they do and how they can apply 
+when it comes to doing our assignments. Didn’t get very far on what containers are and will need to find a better resource 
+to learn about them. Did get an overview of what SQL, Git and Github are and how they work, apart from what we’ve been learning in class.
+
+16 sept: Had a meeting with my group about the assignment. We’ve decided to try an extension so that we code together, 
+called CodeTogether Live. It’s supposed to be a little more effective rather than having to pull and push via Github all the time, 
+but we’re a little wary whether this extension will make it easier to cooperate or not. After trying it, we’ve decided to just work via 
+Github instead. We created a repository where we can all push our scripts, with one branch for each module.
+
+Goal for the day is to further look into what containers are, and what nodejs is/means.
+
+24 sept: Had a lecture on what containers are, as well as virtual machines and how to work when using interpretative programming 
+languages versus compilers. Got a better idea of how containers work versus a virtual machine, but it still feels like we need a more
+concrete showcase of what to do with the containers. Will look up some resources or tutorials on it. 
+
+10 oct: Decided to work on assignments, I have the responsibility of working on mainly assignment number 2, though we will all contribute
+and edit all assignments to make sure everyone's voice is heard. Have to learn how to code HTML and CSS so the BurgerOrder module can look
+a little more presentable and so that I will have something to commit.
