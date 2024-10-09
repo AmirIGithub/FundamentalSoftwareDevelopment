@@ -1,0 +1,12 @@
+24-09-16
+Me and the group members made a little plan on how the project should go. It was a big step where I felt we made progress.
+
+24-09-18
+I have created a container for Burger Order with Dockerfile. Before this I never knew about Docker so it was all new to me. I learned how to create a Docker file and add “layers”. But I’m still learning about it, for example I don't know yet how to connect different containers.
+
+24-09-30
+Today my group mates had a meeting discussing the situation. One of the members has done impressive steps with the app which I'm very proud of. I also gave suggestions and ways to make the app better and we have come to ways to make it better.
+
+I’m gonna try to make the kitchen view container with Docker, and learn how to connect containers together therefore connecting Burger Order and Kitchen View.
+
+I think this meeting was a good meeting and which helped clear things out.
