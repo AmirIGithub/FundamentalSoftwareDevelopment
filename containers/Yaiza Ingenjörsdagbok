@@ -31,3 +31,29 @@ Tested looking at different variables and the values they get while ordering dif
 Meeting with group deciding on what we need to do next. Started writing on inlämningsuppgifter 1-3
 Problems were found when other members try to open the app.py, the connection with the menustore database seem to be wrong. I try to find a solution. 
 My solution is to start the database in the app.py app and then start the database by using the url http://localhost:5000/initdb.
+
+
+2024-10-11
+This week ive been looking at containers, how they work and how the program can be easily shared. I manageded to build a container, a lot of it i dont understand.
+But i managed to make it work and create a dockerfile with step by step instruktions om what the program needs installed for it to work. 
+
+I also made instructions for other people to run the program given they have all the files downloaded in a zip file.
+
+How to Set It Up (Windows)
+
+1. Ensure you have the following installed on your machine:
+Docker: Install Docker Desktop.
+
+2. Steps to Run the Application
+Extract the Files.
+Navigate to the Directory: 
+Open a terminal or command prompt and navigate to the directory where the files are located: cd path/to/extracted/files
+
+3. Build the Docker Containers:
+Run the following command to build the Docker images: docker-compose build
+
+4. Run the Application: 
+Start the application with: docker-compose up
+
+5. Access the Application: 
+In her your browser, go to http://localhost:5000 to access the application.
