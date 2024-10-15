@@ -22,3 +22,13 @@ a little more presentable and so that I will have something to commit.
 14 oct: Since last time I decided to learn some CSS to spruce up the website. I've switched computer to work on, so I've had to 
 redownload XAMPP because I've been having trouble opening up our app.py. Docker has been re-installed, but I can't download Flask for some reason.
 Will look at it later and see if I can get it to work, because right now I can't get anything in our program to open properly.
+
+14 oct: Tried to open the BurgerOrder website on my Mac laptop, but it didn't work at all despite following directions. Instead of trying to 
+fix this and take a lot of time to do so, I decided to try to do the same thing on my Windows PC. It didn't work here either because the
+terminal claimed that I had no file or directory connected to the BurgerOrder. Managed to get Flask redownloaded.
+
+15 oct: We had another group meeting today, where we discussed everything we needed to do with the program before turning it in. I mentioned 
+my troubles with opening the website, so we all went through it together via a videochat in Discord. It seems like I was using the wrong file
+when trying to open the file yesterday. I need to use the burger_order_app.zip and extract it, then use that path in the terminal. Today's goal
+is to get the website opened so I can fill in the CSS and commit it, as well as do a debug session.
+
