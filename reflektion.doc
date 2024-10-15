@@ -81,3 +81,15 @@ Ahmeds ingenjördagbok: https://github.com/AmirIGithub/FundamentalSoftwareDevelo
 Yaizas ingenjördagbok: https://github.com/AmirIGithub/FundamentalSoftwareDevelopment/blob/main/containers/Yaiza%20Ingenj%C3%B6rsdagbok
 
 
+8. Kort sammanfattning om vad konfigurationshantering är och varför det
+används.
+Konfigurationshantering innebär att man håller ordning på större projekt för att hålla strukturen och för att göra det lättare för samarbete med andra samt för dem som vill läsa igenom projektet
+
+9. Kort sammanfattning om det vanligaste arbetsflödet med git, inklusive de
+git-kommandon som används.
+
+10. Era erfarenheter om att arbeta med konfigurationshantering.
+Det var svårt att arbeta med konfigurationshantering då vi inte visste vilken struktur projektet behövde ha från början. Det var också mycket mer fokus på att försöka få allt att fungera än hur det var strukturerat. Men vi försökte använda oss av branches där uppdateringar läggs in och sedan merga branchen till main branchen när vi alla godkänt ändringen.
+
+
+
