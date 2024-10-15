@@ -32,3 +32,15 @@ my troubles with opening the website, so we all went through it together via a v
 when trying to open the file yesterday. I need to use the burger_order_app.zip and extract it, then use that path in the terminal. Today's goal
 is to get the website opened so I can fill in the CSS and commit it, as well as do a debug session.
 
+(DEBUG SESSION, 15 oct): Decided to do the debug-session in VSCode because the tutorials for debug sessions were mostly for that. I thought that
+I hadn't ever done any proper debugging before, but the Run and Debug in CSCode seemed to work similar to Thonny. I have used Thonny before in a lot of my 
+projects in another course, which meant that I was thankfully very used to it. Since the program has been worked out by us and is in the 
+endstages, I wasn’t expecting to find any ’proper’ bugs. I decided to try to order a Honey Mustard from the menu and add some bacon. 
+It took me some work to be able to figure out what exactly I needed. When you only open the HTML-file for the website you don’t get 
+any of the menu-items, since the database isn’t connected to it. Thus, I had to use the burger_order_app which I unzipped. When you try 
+to only Run and Debug via VSCode it doesn’t work because it can’t find the Flask module. Tried using a few Docker commands in the terminal, 
+but I only get this error message: no matching manifest for linux/arm64/v8 in the manifest list entries. When looking it up, it seemed 
+like it would be hard to solve with my laptop as it is, so I eventually chose to use Thonny as a debugger instead. It took some time to 
+find what exactly I needed to import into Thonny, but I changed my strategy and chose a function out of the app.py file.
+It was interesting to see how the variables would change during the debug-session and take on new values. Everything looked as it should, 
+but I hadn’t expected any bugs since we are in the endstages of the project. 
