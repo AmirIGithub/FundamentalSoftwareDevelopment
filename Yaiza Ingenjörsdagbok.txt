@@ -62,3 +62,8 @@ In her your browser, go to http://localhost:5000 to access the application.
 2024-10-14
 Done with "inlämningsuppgift 3" and today im writing on "inlämningsuppgift" 1 and 2 and later we have a meeting to go through what we need to do/fix before turning everything in.
 The meeting may be resceduled due to logistic problems.
+
+2024-10-15
+Had a meeting today where we looked at inlämningsuppgift 1-3. We edited things that needed to be fixed and made sure we had done everything
+Ahmed had another solution with 3 different containers, therefore we went with his program. The 3 containers need to be built, an run for it to work on localhost:5000.
+The CSS can be inproved, therfore until friday we are looking to improve the visuals, make sure everything is in the main branch and then turn everything in.
