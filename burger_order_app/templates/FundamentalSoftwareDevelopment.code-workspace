@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"name": "FundamentalSoftwareDevelopment",
+			"path": "../../FundamentalSoftwareDevelopment"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "FundamentalSoftwareDevelopment"
+	}
+}
