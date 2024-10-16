@@ -1,6 +1,6 @@
-CREATE DATABASE MenuStore;
+-- CREATE DATABASE db;
+use db;
 
-USE MenuStore;
 
 -- Table for menu items (e.g., burgers, drinks, etc.)
 CREATE TABLE menu_items(
