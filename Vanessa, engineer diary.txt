@@ -44,3 +44,6 @@ like it would be hard to solve with my laptop as it is, so I eventually chose to
 find what exactly I needed to import into Thonny, but I changed my strategy and chose a function out of the app.py file.
 It was interesting to see how the variables would change during the debug-session and take on new values. Everything looked as it should, 
 but I hadn’t expected any bugs since we are in the endstages of the project. 
+
+16 oct: Added a simple black, rounded border around BurgerOrder and KitchenView by using CSS. Had some trouble committing changes and pushing them on my Macbook, so decided to do all my work on Windows PC instead of trying to troubleshoot to save some time. Tried committing via VSCode, had to make sure to stage my changes and writing a message before committing and pushing, otherwise the VSCode appeared to crash.
+
