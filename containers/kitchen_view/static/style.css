@@ -7,6 +7,9 @@ body {
 
 h1 {
     color: #333;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 h2 {
