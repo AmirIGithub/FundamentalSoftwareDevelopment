@@ -5,5 +5,9 @@ Had the first group meeting to get to know our group members to get a feel of wh
 Second group meeting, started discussing what languages we want to use for this project and how we plan to proceed with it. 
 We let everyone work with their strengths or sharpen their weaknesses to turn them into strengths. 
 
+2024-10-04
+Did a full debugg of every part of the project to make sure everything works
+(See reference in Inlämningsuppgift 3)
+
 2024-10-10
 I have continued working on my assignment. For this project I was assigned for porject 2. 
