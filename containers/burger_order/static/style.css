@@ -10,6 +10,8 @@ h1 {
     border: 2px solid black;
     padding: 10px;
     border-radius: 5px;
+    text-align: center;
+    text-decoration: underline;
 }
 
 h2 {
