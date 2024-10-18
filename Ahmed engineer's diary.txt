@@ -10,3 +10,34 @@ Today my group mates had a meeting discussing the situation. One of the members 
 I’m gonna try to make the kitchen view container with Docker, and learn how to connect containers together therefore connecting Burger Order and Kitchen View.
 
 I think this meeting was a good meeting and which helped clear things out.
+
+24-10-10
+One of the meetings we divided some tasks for each person and I got the task to make the app into containers using Docker and so I started working on it, trying and testing on a dummy project just to get it working and then try it on the actual project. It is hard because it is the first time I try using Docker and containerizing a project. I will keep trying until I get it right.
+
+24-10-12
+Today I finally containerized the dummy project and got everything working with Flask and MySQL. I used the same method for the actual project and got a few bugs because of the code Yaiza wrote but I managed to fix it and got it all working.
+
+I have learned alot about Docker.
+
+24-10-13
+Today I continued working on the burger order. I fixed some issues and I started researching what is a REST-request and how to use it because I have to send data between Burger order and Kitchen view using it..
+
+24-10-14
+Today I implemented the kitchen view with its own container and figured out how to use the REST request and its not that difficult to do. I managed to send and receive data. Now when you order in the Burger order the Kitchen view will receive it and display it properly.
+
+I’m proud of what I did even though it was all messy in the process but I cleaned up afterwards and the code looks rather clean. I kinda have this issue where I just can't bear ugly code. Even though I’m not that good at writing beautiful code I still try to follow some principles and structures.
+
+24-10-15
+Today we suddenly had a bug that I didn't notice where the CSS files weren't being applied to the HTML files. It took a while until we found a solution which is to directly put the link for the CSS file inside the html.
+
+24-10-16
+Today I fixed some issues like unwanted files e.t.c and merged the branch I’ve been working on to the main branch. It all worked out and I’m happy with the results.
+
+I have learned a lot of things in this project like Docker and how to work in a group. It was tough but we managed.
+
+24-10-17
+
+Debug session:
+Today I decided to start a debugging session in VSCODE. First I put a breakpoint in the BurgerOrder app.py. I put it on line 49 to see all the current variables status. I then tried to comment out variables to see how the app will react. But everytime I comment out a variable I get an error because this variable is being used. I then opened up BurgerOrder to test different routes. I tried choosing an ingredient without specifying whether it's an “add” or “remove”. Placing that order into the cart worked but when ordering it, it doesn't show in the KitchenView. I also tried placing an order while the cart was empty and nothing happened as expected.
+
+I think this debug session went well because our app is not that “buggy”. Everything went as expected.
