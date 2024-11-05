@@ -11,3 +11,7 @@ Did a full debugg of every part of the project to make sure everything works
 
 2024-10-10
 I have continued working on my assignment. For this project I was assigned for porject 2. 
+
+2024-10-15
+Today we noticed some bugs with the CSS and HTML not working together which led to some bugs. We sat in the group together to solve the issues and make the whole project work
+
