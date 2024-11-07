@@ -9,7 +9,7 @@ We let everyone work with their strengths or sharpen their weaknesses to turn th
 Did a full debug of every part of the project to make sure everything works
 (See reference in Inlämningsuppgift 3)
 Debug session:
-Today I decided to start a debugging session in VSCODE. I started with putting a breakpoint in the BurgerOrder app.py. I attempted to work my way through the program and progressively comment out certain parts of the program to see how it would react to the change. As expected, when I commented out certain parts or certain variables, the code didnt work. I did the same thing in BurgerOrder, tried different routes to see if no matter what choice I did, that it would end up in Kitchenview. For example putting an empty cart, which worked but as expected, nothing appeared in the KitchenView.
+Today I decided to start a debugging session in VSCODE. I started with putting a breakpoint in the BurgerOrder app.py. I attempted to work my way through the program and progressively comment out certain parts of the program to see how it would react to the change. As expected, when I commented out certain parts or certain variables, the code didnt work. Worked my way to line 49 to see all current variables status and commented out certain variables to see how dependant each variable is for the whole project. I did the same thing in BurgerOrder, tried different routes to see if no matter what choice I did, that it would end up in Kitchenview. For example putting an empty cart, which worked but as expected, nothing appeared in the KitchenView.
 
 The session went well because our app isnt that complicated and theres not many room for bugs. The session went as I interpreted.
 
@@ -19,3 +19,4 @@ I have continued working on my assignment. For this project I was assigned for p
 2024-10-15
 Today we noticed some bugs with the CSS and HTML not working together which led to some bugs. We sat in the group together to solve the issues and make the whole project work
 
+Today I decided to start a debugging session in VSCODE. First I put a breakpoint in the BurgerOrder app.py. I put it on line 49 to see all the current variables status. I then tried to comment out variables to see how the app will react. But everytime I comment out a variable I get an error because this variable is being used. I then opened up BurgerOrder to test different routes. I tried choosing an ingredient without specifying whether it's an “add” or “remove”. Placing that order into the cart worked but when ordering it, it doesn't show in the KitchenView. I also tried placing an order while the cart was empty and nothing happened as expected.
