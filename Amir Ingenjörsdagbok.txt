@@ -6,8 +6,12 @@ Second group meeting, started discussing what languages we want to use for this 
 We let everyone work with their strengths or sharpen their weaknesses to turn them into strengths. 
 
 2024-10-04
-Did a full debugg of every part of the project to make sure everything works
+Did a full debug of every part of the project to make sure everything works
 (See reference in Inlämningsuppgift 3)
+Debug session:
+Today I decided to start a debugging session in VSCODE. I started with putting a breakpoint in the BurgerOrder app.py. I attempted to work my way through the program and progressively comment out certain parts of the program to see how it would react to the change. As expected, when I commented out certain parts or certain variables, the code didnt work. I did the same thing in BurgerOrder, tried different routes to see if no matter what choice I did, that it would end up in Kitchenview. For example putting an empty cart, which worked but as expected, nothing appeared in the KitchenView.
+
+The session went well because our app isnt that complicated and theres not many room for bugs. The session went as I interpreted.
 
 2024-10-10
 I have continued working on my assignment. For this project I was assigned for porject 2. 
